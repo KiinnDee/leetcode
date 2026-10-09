@@ -7,9 +7,9 @@
 // @lc code=start
 int numIdenticalPairs(int* nums, int numsSize) {
     int cnt = 0;
-    for (i=0; i<=numsSize-2; i++)
+    for (int i=0; i<=numsSize-2; i++)
     {
-        for (j=i+1; j<=numsSize-1; j++)
+        for (int j=i+1; j<=numsSize-1; j++)
         {
             if (nums[i] == nums[j])
             {
